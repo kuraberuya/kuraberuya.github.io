@@ -5,3 +5,5 @@
 ## データ
 - [2026年の車の維持費は上がった？ 前年同月比6項目のデータ](https://kuraberuya.github.io/car-maintenance-2026.html): 総務省CPI 2026年9月、全国。ガソリン−2.6％、オイル交換＋18.9％など
 - [RAV4、新型CX-5、フォレスター、5年総費用はいくら違う？（年1万km）](https://kuraberuya.github.io/suv-5year-rav4-cx5-forester.html): 同じ売却割合50％でRAV4約377万円、フォレスター約387万円、新型CX-5約394万円。売却割合を車種別にすると差は約106万円
+- [軽ターボと普通車、週1回片道150kmの高速移動で年間いくら違う？](https://kuraberuya.github.io/kei-vs-futsu-highway-weekly.html): 高速料金、燃料代、税金の合計で軽ターボ年453,360円、普通車HV年526,340円
+- [新車の見積書、諸費用はどこが削れる？ 実物2枚の内訳](https://kuraberuya.github.io/new-car-quote-fees.html): 交渉できる費用と選べる費用は約15万〜36万円。下取り車なしで下取り手数料15,950円の例
