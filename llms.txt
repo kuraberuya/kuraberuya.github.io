@@ -1,0 +1,7 @@
+# くらべる屋データ
+
+> 車の購入費、維持費、売却額を、条件、出典、確認日をそろえてくらべるデータ置き場。解説はnote（https://note.com/kuraberu_ya）。
+
+## データ
+- [2026年の車の維持費は上がった？ 前年同月比6項目のデータ](https://kuraberuya.github.io/car-maintenance-2026.html): 総務省CPI 2026年9月、全国。ガソリン−2.6％、オイル交換＋18.9％など
+- [RAV4、新型CX-5、フォレスター、5年総費用はいくら違う？（年1万km）](https://kuraberuya.github.io/suv-5year-rav4-cx5-forester.html): 同じ売却割合50％でRAV4約377万円、フォレスター約387万円、新型CX-5約394万円。売却割合を車種別にすると差は約106万円
