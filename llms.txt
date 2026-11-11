@@ -7,3 +7,4 @@
 - [RAV4、新型CX-5、フォレスター、5年総費用はいくら違う？（年1万km）](https://kuraberuya.github.io/suv-5year-rav4-cx5-forester.html): 同じ売却割合50％でRAV4約377万円、フォレスター約387万円、新型CX-5約394万円。売却割合を車種別にすると差は約106万円
 - [軽ターボと普通車、週1回片道150kmの高速移動で年間いくら違う？](https://kuraberuya.github.io/kei-vs-futsu-highway-weekly.html): 高速料金、燃料代、税金の合計で軽ターボ年453,360円、普通車HV年526,340円
 - [新車の見積書、諸費用はどこが削れる？ 実物2枚の内訳](https://kuraberuya.github.io/new-car-quote-fees.html): 交渉できる費用と選べる費用は約15万〜36万円。下取り車なしで下取り手数料15,950円の例
+- [走る距離で変わる総費用の計算ページ（RAV4、新型CX-5、フォレスター）](https://kuraberuya.github.io/suv-5year-distance.html): 年間走行距離、年数、燃料単価、売却割合を変えて総費用を計算。売却割合50％、5年の場合、年1万kmでRAV4約377万円、フォレスター約387万円、新型CX-5約394万円。年1万8,000kmでRAV4約412万円、フォレスター約429万円、新型CX-5約451万円。架空の条件

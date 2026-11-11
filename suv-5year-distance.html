@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><script async src="https://www.googletagmanager.com/gtag/js?id=G-XRHMNN09KC"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-XRHMNN09KC");</script><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>走る距離で変わる5年総費用｜RAV4、新型CX-5、フォレスター｜くらべる屋</title>
+<link rel="canonical" href="https://kuraberuya.github.io/suv-5year-distance.html">
+<meta name="description" content="年間の走行距離、年数、燃料単価、売却割合を自分の条件に変えて、RAV4、新型CX-5、フォレスターの総費用の差を計算できます。数字は架空の条件です。">
+<style>
+:root{--navy:#1d2b4f;--yellow:#f7c948;--cream:#f7f5ef;--line:#9aa3b5}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--navy);font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.7}
+header{background:var(--navy);color:#fff;padding:20px 16px}header .in,main{max-width:860px;margin:0 auto}
+.brand{font-weight:700;font-size:14px;border-bottom:2px solid rgba(255,255,255,.7);padding-bottom:8px;margin-bottom:12px}
+h1{font-size:clamp(22px,5vw,34px);line-height:1.35;margin:0;font-weight:900}h1 b{color:var(--yellow)}
+main{padding:16px}h2{font-size:20px;font-weight:900;margin:28px 0 10px;border-left:10px solid var(--yellow);padding-left:10px}
+.ans{background:var(--navy);color:#fff;padding:16px;margin:16px 0;font-weight:700;font-size:clamp(16px,3.6vw,20px)}.ans b{color:var(--yellow);font-size:1.25em}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+label{display:block;font-weight:700;font-size:14px}label span{font-weight:500}
+input[type=number],select{width:100%;padding:8px;font-size:16px;border:2px solid var(--navy);background:#fff;color:var(--navy);font-family:inherit}
+input[type=range]{width:100%;accent-color:var(--navy)}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px;font-variant-numeric:tabular-nums}
+th{background:var(--navy);color:#fff;padding:8px;text-align:right;font-weight:700}th:first-child,td:first-child{text-align:left}
+td{padding:8px;border-bottom:2px solid var(--line);text-align:right}td.t{background:var(--yellow);font-weight:900}
+td input{width:100%;min-width:84px;padding:6px;font-size:15px;border:1px solid var(--line);font-family:inherit;color:var(--navy)}
+.bar{display:flex;align-items:center;gap:8px;margin:8px 0;font-weight:700;font-size:14px}.bar .n{width:9.5em;flex:none}.bar .b{height:22px;background:var(--navy)}.bar .v{white-space:nowrap}
+.note{font-size:13px;font-weight:500;border-top:2px solid var(--navy);padding-top:10px;margin-top:20px}
+.cta{background:#fff;border:2px solid var(--navy);padding:14px;margin:20px 0}.cta a{color:var(--navy);font-weight:900}
+</style></head><body>
+<header><div class="in"><div class="brand"><a href="./" style="color:#fff;text-decoration:none">くらべる屋データ</a>｜車のお金</div><h1>走る距離で変わる<b>総費用</b><br>RAV4、新型CX-5、フォレスター</h1></div></header>
+<main>
+<div class="ans" id="ans" aria-live="polite"></div>
+<h2>自分の条件に変える</h2>
+<div class="grid">
+<label>年間の走行距離 <span id="kmv"></span><input id="km" type="range" min="3000" max="30000" step="1000" value="10000"></label>
+<label>乗る年数<select id="yr"><option>3</option><option selected>5</option><option>7</option></select></label>
+<label>レギュラー1Lの値段（円）<input id="gas" type="number" value="170" min="100" max="300"></label>
+<label>売るときの値段（本体価格の何%）<select id="rs"><option value="40">40%（低め）</option><option value="50" selected>50%（中間）</option><option value="60">60%（高め）</option></select></label>
+</div>
+<h2>結果</h2>
+<div id="bars"></div>
+<div class="tw"><table><thead><tr><th>車</th><th>値下がり</th><th>燃料代</th><th>税、車検など</th><th>総費用</th><th>月あたり</th></tr></thead><tbody id="tb"></tbody></table></div>
+<h2>車の数字を変える</h2>
+<div class="tw"><table><thead><tr><th>車</th><th>本体価格（万円）</th><th>WLTC燃費（km/L）</th></tr></thead><tbody id="cars"></tbody></table></div>
+<div class="cta">今の車を含めた4台を、売却額3通り、燃料の種類ごとの値段で比べ直して保存したい場合は、<a href="https://note.com/kuraberu_ya/n/ne47ddcb88bda">比較シート（Excel）</a>があります。年ごとの費用、何年目に逆転するか、ローン、見積書の諸費用まで1つで計算できます。計算の考え方は<a href="https://note.com/kuraberu_ya/n/n95bce5a6941e">noteの記事</a>、年1万kmの場合の表は<a href="suv-5year-rav4-cx5-forester.html">こちらのデータ</a>にまとめています。</div>
+<p class="note">計算の条件：支払総額は本体価格に上乗せ費用50万円を足した額。値下がりは、支払総額から売るときの値段を引いた額。計算に使う燃費はWLTCの85%。税、車検、点検、タイヤは3台とも年11.75万円。任意保険、駐車場、ローン利息は含みません。走行距離が多いと売るときの値段は下がりやすく、消耗品の交換も早まりますが、この計算には入れていません。<br>本体価格とWLTC燃費は2026年10月6日に各社の公式情報で確認した値（RAV4 Adventure ハイブリッド E-Four、新型CX-5 L 4WD マイルドハイブリッド、フォレスター X-BREAK S:HEV EX）。そのほかは比較のための架空の条件で、実際の見積額や買取額ではありません。このページに広告はありません。計算式の確認日：2026年11月12日。</p>
+</main>
+<script>
+const cars=[{n:"RAV4",p:450,f:22.9},{n:"新型CX-5",p:430.65,f:14.2},{n:"フォレスター",p:452.1,f:19.1}];
+const $=id=>document.getElementById(id),man=v=>"約"+Math.round(v).toLocaleString("ja-JP")+"万円";
+function calc(c,km,yr,gas,rs){const paid=c.p+50,dep=paid-c.p*rs/100,fuel=km*yr/(c.f*0.85)*gas/10000,mt=11.75*yr;return{dep,fuel,mt,tot:dep+fuel+mt}}
+function draw(){
+ const km=+$("km").value,yr=+$("yr").value,gas=+$("gas").value||170,rs=+$("rs").value;
+ $("kmv").textContent="："+km.toLocaleString("ja-JP")+"km";
+ const r=cars.map(c=>({c,...calc(c,km,yr,gas,rs)})).filter(x=>x.c.p>0&&x.c.f>0).sort((a,b)=>a.tot-b.tot);
+ if(!r.length)return;
+ const lo=r[0],hi=r[r.length-1],mx=hi.tot;
+ $("ans").innerHTML="年"+km.toLocaleString("ja-JP")+"km、"+yr+"年、売るときの値段が本体価格の"+rs+"%なら、総費用がいちばん少ないのは<b>"+lo.c.n+"</b>（"+man(lo.tot)+"）。いちばん多い"+hi.c.n+"との差は<b>"+man(hi.tot-lo.tot)+"</b>です。";
+ $("bars").innerHTML=r.map(x=>'<div class="bar"><span class="n">'+x.c.n+'</span><span class="b" style="width:'+(x.tot/mx*55).toFixed(1)+'%"></span><span class="v">'+man(x.tot)+'</span></div>').join("");
+ $("tb").innerHTML=r.map(x=>"<tr><td>"+x.c.n+"</td><td>"+man(x.dep)+"</td><td>"+man(x.fuel)+"</td><td>"+man(x.mt)+'</td><td class="t">'+man(x.tot)+"</td><td>約"+(x.tot/(yr*12)).toFixed(1)+"万円</td></tr>").join("");
+}
+$("cars").innerHTML=cars.map((c,i)=>'<tr><td><input aria-label="車名" data-i="'+i+'" data-k="n" value="'+c.n+'"></td><td><input aria-label="本体価格" type="number" step="0.1" data-i="'+i+'" data-k="p" value="'+c.p+'"></td><td><input aria-label="燃費" type="number" step="0.1" data-i="'+i+'" data-k="f" value="'+c.f+'"></td></tr>').join("");
+document.addEventListener("input",e=>{const t=e.target;if(t.dataset&&t.dataset.k){cars[+t.dataset.i][t.dataset.k]=t.dataset.k==="n"?t.value:+t.value}draw()});
+draw();
+</script></body></html>
